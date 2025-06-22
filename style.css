@@ -86,3 +86,24 @@ textarea{
 input:focus, textarea:focus{
     outline:2px solid #00ffcc;
 }
+
+/*Responsive design for small screens*/
+@media(max-width:600px) {
+    body{
+        padding: 10px;
+        font-size: 16px;
+    }
+    img{
+        width: 80%;
+    }
+    
+    button{
+        width: 100%;
+        font-size: 16px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+}
